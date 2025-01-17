@@ -113,6 +113,10 @@ python train_lt.py \
 
 ## Configs
 
+### Enchancements for Improving Performance
+Although the original model is trained using the AdamW optimizer, swapping to the Shampoo optimizer is much better and can result in stronger models. 
+Feel free to try it out. 
+Please look at [train_lt.py](train_lt.py#L106) --- uncomment [L34-35](train_lt.py#L34)
 
 ### Pretraining Configurations
 
