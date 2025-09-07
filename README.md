@@ -148,7 +148,6 @@ Please look at [train_lt.py](train_lt.py#L106) --- uncomment [L34-35](train_lt.p
 | image-size            | 224          | 224            |
 
 
-
 ### Fine-tuning Configurations
 | Flag                  | ViTTM-S  | ViTTM-B  |
 | --------------------- | -------- | -------- |
@@ -210,6 +209,10 @@ Please look at [train_lt.py](train_lt.py#L106) --- uncomment [L34-35](train_lt.p
 | random-erasing        | Enable Random Erasing augmentation        |
 | bce                   | Use Binary Cross Entropy loss             |
 | image-size            | Size of input images                      |
+
+### Pretrained Weights:
+- [ViTTM-B-28](https://drive.google.com/file/d/1bobJz3EROlPYmwRnjN74gYgm3b-9qrKI/view?usp=drive_link)
+
 
 <!-- Citation -->
 # Citation 
